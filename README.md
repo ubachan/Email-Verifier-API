@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
     <img src="https://img.shields.io/badge/Framework-Flask-black.svg" alt="Flask">
     <img src="https://img.shields.io/badge/Integration-n8n-ea4b71.svg" alt="n8n">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/License-Personal_Use-blue.svg" alt="License: Personal Use">
   </p>
   <p>Built to replace expensive paid services like ZeroBounce or NeverBounce for personal, freelance, and automation workflows.</p>
 </div>
@@ -218,4 +218,4 @@ Parameter : file → (Attach your CSV data)
 
 ## 📄 License
 
-MIT License — Free to use, modify, distribute, and deploy for personal or commercial projects.
+Personal Use License — Free to use, modify, distribute, and deploy for personal and educational projects only. Commercial use is strictly prohibited.
