@@ -217,4 +217,4 @@ Parameter : file → (Attach your CSV data)
 
 ## 📄 License
 
-MIT License — Free to use, modify, distribute, and deploy for personal or commercial projects.
+Non-Commercial License — Free for personal, open-source, and educational use. For commercial use or business deployment, please contact the author for a commercial license.
