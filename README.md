@@ -150,8 +150,9 @@ Deploy this API to the cloud in 3 minutes to use it as a webhook endpoint.
 > # app.run(debug=True, port=5050)
 >
 > # REPLACE WITH THIS:
-> import os
-> app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5050)))
+> if __name__ == '__main__':
+    import os
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5050)))
 > ```
 
 ---
