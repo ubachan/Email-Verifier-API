@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
     <img src="https://img.shields.io/badge/Framework-Flask-black.svg" alt="Flask">
     <img src="https://img.shields.io/badge/Integration-n8n-ea4b71.svg" alt="n8n">
-    <img src="https://img.shields.io/badge/License-Non--Commercial-orange.svg" alt="License: Non-Commercial">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   </p>
   <p>Built to replace expensive paid services like ZeroBounce or NeverBounce for personal, freelance, and automation workflows.</p>
 </div>
@@ -42,7 +42,7 @@ This API checks every email through **4 distinct layers** before it ever reaches
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/ubachan/email-verifier.git
+git clone https://github.com/YOUR_USERNAME/email-verifier.git
 cd email-verifier
 ```
 
@@ -217,4 +217,4 @@ Parameter : file → (Attach your CSV data)
 
 ## 📄 License
 
-Non-Commercial License — Free for personal, open-source, and educational use. For commercial use or business deployment, please contact the author for a commercial license.
+MIT License — Free to use, modify, distribute, and deploy for personal or commercial projects.
