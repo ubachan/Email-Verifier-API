@@ -82,6 +82,17 @@ def check_email(email):
     else:
         return "invalid", f"smtp_{code}"
 
+@app.route('/check', methods=['POST'])
+def check_single():
+    body = request.get_json()
+    if not body or 'email' not in body:
+        return jsonify({"error": "email field required"}), 400
+    email = body['email'].strip()
+    if not email:
+        return jsonify({"email": email, "status": "invalid", "reason": "empty_email"}), 200
+    status, reason = check_email(email)
+    return jsonify({"email": email, "status": status, "reason": reason}), 200
+
 @app.route('/verify', methods=['POST'])
 def verify():
     job_id = str(uuid.uuid4())
