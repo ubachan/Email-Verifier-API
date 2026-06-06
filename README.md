@@ -159,27 +159,29 @@ Deploy this API to the cloud in 3 minutes to use it as a webhook endpoint.
 
 ## 🤖 n8n Integration
 
-After deploying to Railway, plug this API into your AI automation workflows using the **HTTP Request** node.
+After deploying to Railway, seamlessly plug this API into your backend automation workflows using the **HTTP Request** node.
 
-**Node Configuration:**
-```
-Method    : POST
-URL       : https://your-app.up.railway.app/verify
-Body Type : Form-Data
-Parameter : file → (Attach your CSV data)
-```
+💡 **Looking for a ready-made n8n template?**  
+I have built a complete, enterprise-grade automation workflow that uses this exact API alongside OpenAI, Supabase, and Slack. 
+👉 **[Get the Advance AI-Powered Lead Management System here](https://github.com/ubachan/Advance-AI-Powered-Lead-Management-System)**
+
+### Manual Node Configuration
+If you are building your workflow from scratch, set up your n8n HTTP Request node like this:
+
+* **Method:** `POST`
+* **URL:** `https://your-app.up.railway.app/check` *(Use `/verify` for CSV files, `/check` for single JSON emails)*
+* **Body Type:** `JSON` (or `Form-Data` for files)
 
 **Recommended High-Performance Flow:**
-```
+```text
 [ Code Node: Syntax + Disposable + Role Checks ]
-                      ↓
+                          ↓
 [ HTTP Request: Google DNS API (Fast MX Check) ]
-                      ↓
-[ HTTP Request: THIS API (Deep SMTP Check)     ]
-                      ↓
-[ Switch/If Node: Route to Valid / Invalid     ]
+                          ↓
+[ HTTP Request: THIS API (Deep SMTP Check) ]
+                          ↓
+[ Switch/If Node: Route to Valid / Invalid ]
 ```
-
 ---
 
 ## 📊 Status Codes & Meanings
