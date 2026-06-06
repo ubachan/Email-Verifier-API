@@ -43,7 +43,7 @@ This API checks every email through **4 distinct layers** before it ever reaches
 **1. Clone the repository**
 ```bash
 git clone https://github.com/ubachan/Email-Verifier-API.git
-cd email-verifier
+cd Email-Verifier-API
 ```
 
 **2. Create a virtual environment**
