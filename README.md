@@ -42,7 +42,7 @@ This API checks every email through **4 distinct layers** before it ever reaches
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/email-verifier.git
+git clone https://github.com/ubachan/email-verifier.git
 cd email-verifier
 ```
 
