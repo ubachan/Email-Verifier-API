@@ -219,3 +219,14 @@ Parameter : file → (Attach your CSV data)
 ## 📄 License
 
 Personal Use License — Free to use, modify, distribute, and deploy for personal and educational projects only. Commercial use is strictly prohibited.
+
+---
+
+### 📬 Connect with Me
+
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.google.com/search?q=https://www.linkedin.com/in/uba-chan)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:aivibe@ubachan.site)
+
+
+---
+
